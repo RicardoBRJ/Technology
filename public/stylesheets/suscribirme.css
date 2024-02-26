@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: rale;
+    background-color: #003366;
+
+}
+@font-face {
+    font-family: rale;
+    src: url(../Fuente/Raleway-Regular.ttf);
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-gap: 10px;
+    
+}
+
+section{
+    grid-area: 2/2/2/3;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+
+header{
+    grid-area: 1/1/2/4;
+    padding: 5px;
+    background-color:  #1ae485;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+
+form{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+input[type=text]{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+}
+
+input[type=email]{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+}
+
+input[type=date]{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+}
+
+.section{
+    padding: 15px 0;
+}
+
+.section  .title{
+    padding: 10px 0;
+}
+
+.button{
+    padding: 10px 0;
+    text-align: center;
+}
+.button a{
+    color: #003366;
+}
+
+button[type=submit]{
+    border: 0;
+    outline: 0;
+    background-color: #1ae485;
+    font-size: 18px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+  }
+  
+  footer{
+    background-color: #003366;
+    color: white;
+    border: solid 3px white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media screen and (max-width:970px) {
+    .logo1{
+        width: 20%;
+    }
+}
